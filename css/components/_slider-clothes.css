@@ -1,0 +1,23 @@
+/* .slider__clothes {
+    display: flex;
+    min-width: 0;
+} */
+
+
+/* 
+.slider__clothes__line {
+    display: flex;
+    min-width: 0;
+} */
+
+.slider__clothes__slick .section__header {
+    margin-bottom: 31px;
+}
+
+.slider__clothes__line img {
+    margin-right: 16px;
+}
+
+.slider__clothes__line img:last-child {
+    margin-right: 0;
+}

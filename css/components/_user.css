@@ -1,0 +1,37 @@
+.user__container {
+    display: flex;
+    margin-bottom: 74px;
+}
+
+.user__block {
+    max-width: 287px;
+    height: 287px;
+    margin-right: 32px;
+    position: relative;
+}
+
+.user_text {
+    display: flex;
+    font-family: "Rajdhani";
+    align-content: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.user__black__container {
+    display: none;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+
+.user__black__title {
+    margin-top: 6px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 24px;
+}

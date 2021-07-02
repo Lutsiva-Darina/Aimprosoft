@@ -1,0 +1,40 @@
+.categories {
+    margin: 0 auto;
+    margin-bottom: 79px;
+}
+
+.categories__icon {
+    display: block;
+    margin: auto;
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
+
+.categories__row {
+    width: 100%;
+    display: flex;
+}
+
+.categories__item {
+    display: flex;
+    min-height: 446px;
+    font-family: "Rajdhani";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0px 3px 0px rgba(20, 21, 24, 0.004);
+    font-size: 33px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+}
+
+.item-big {
+    width: 75%;
+}

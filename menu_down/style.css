@@ -1,0 +1,311 @@
+p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+button {
+    outline: none;
+    border: none;
+    padding: 0;
+}
+
+.indent {
+    margin-left: 25%;
+}
+
+.menu__down {
+    max-width: 561px;
+    height: 658px;
+    background-color: white;
+    border: 1px solid gray;
+    background-color: #b1b1b1;
+}
+
+.menu__burger__head {
+    background-color: black;
+    padding: 15px 0;
+}
+
+.menu__burger_title {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.menu__burger__search {
+    padding: 10px;
+}
+
+.search__input {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    color: rgb(88, 88, 88);
+    width: 100%;
+    text-transform: uppercase;
+    padding: 12px;
+}
+
+.search__input__button {
+    display: block;
+    background-color: transparent;
+}
+
+.search__input__img {
+    width: 44px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+form {
+    display: flex;
+}
+
+.menu__wrapper {
+    background-color: white;
+    min-height: 71px;
+    height: 100%;
+    font-size: 22px;
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.topmenu_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.topmenu_block a {
+    color: rgb(41, 41, 41);
+}
+
+.plus {
+    margin-right: 28px;
+}
+
+.plus span {
+    position: relative;
+    display: block;
+    background-color: rgb(41, 41, 41);
+    width: 12px;
+    height: 2px;
+}
+
+.plus_vertical {
+    top: -2px;
+    transform: rotate(90deg);
+}
+
+
+/* 
+.dws-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+ul {
+    width: 100%;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu>ul li {
+    position: relative;
+    border-right: 1px solid #c7c8ca;
+}
+
+.dws-menu>ul li:first-child {
+    border-left: 1px solid #b2b3b5;
+}
+
+.dws-menu>ul li:last-child {
+    border-right: 1px solid #babbbd;
+}
+
+.dws-menu>ul li>a i.fa {
+    /* position: absolute; */
+
+
+/* top: 15px;
+left: 12px;
+font-size: 18px;
+
+}
+.dws-menu>ul li a {
+    display: block;
+    background-color: white; */
+
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9c9c9+0,f6f6f6+2,c4c5c7+98,757577+100;Custom+3 */
+
+
+/* background: rgb(201, 201, 201);
+    /* Old browsers 
+    background: -moz-linear-gradient(top, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    /* FF3.6-15 
+    background: -webkit-linear-gradient(top, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 
+    background: linear-gradient(to bottom, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%);
+    W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+/* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577', GradientType=0); */
+
+
+/* IE6-9 */
+
+
+/* padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.dws-menu li a:hover {
+    background-color: wheat;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+} */
+
+
+/*sub menu*/
+
+
+/* .dws-menu li ul {
+    /* position: absolute; 
+    
+    min-width: 150px;
+    display: none;
+}
+.dws-menu li>ul li {
+    border: 1px solid #c7c8ca;
+}
+.dws-menu li>ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: #e4e4e5;
+}
+.dws-menu li>ul li ul {
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+.dws-menu li:hover>ul {
+    display: block;
+} */
+
+nav {
+    background: #413F3C;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    transition: .3s linear;
+}
+
+.topmenu>li {
+    float: left;
+    position: relative;
+    border-left: 1px solid black;
+}
+
+.topmenu>li:first-child {
+    border-left: 0;
+    width: 100%;
+}
+
+.topmenu>li>a {
+    padding: 20px 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FEFDFD;
+    letter-spacing: 2px;
+}
+
+.topmenu>li>a.active,
+.submenu a:hover {
+    color: #ddbe86;
+    margin-left: 25%;
+}
+
+.topmenu .fa,
+.submenu .fa {
+    margin-left: 5px;
+    color: inherit;
+}
+
+.submenu__second {
+    background-color: #ddbe86;
+    max-width: 561px;
+    display: block;
+    width: 100%;
+}
+
+.submenu {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    background: white;
+    border-top: 1px solid #CBCBCC;
+    border-left: 1px solid #CBCBCC;
+    border-right: 1px solid #CBCBCC;
+    visibility: hidden;
+    opacity: 0;
+    transform-origin: 0% 0%;
+    transform: rotateX(-90deg);
+    transition: .3s linear;
+}
+
+.submenu li {
+    position: relative;
+    margin-left: 25%;
+}
+
+.submenu li a {
+    color: #282828;
+    padding: 10px 0px;
+    font-size: 13px;
+    border-bottom: 1px solid #CBCBCC;
+}
+
+.submenu .submenu {
+    position: absolute;
+    left: 100%;
+    top: -1px;
+    transition: .3s linear;
+}
+
+nav li:focus>.submenu {
+    transform: rotateX(0deg);
+    visibility: visible;
+    opacity: 1;
+}

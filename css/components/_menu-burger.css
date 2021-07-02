@@ -1,0 +1,44 @@
+.menu__down {
+    max-width: 564px;
+    width: 100%;
+    height: 300px;
+    background-color: wheat;
+    display: block;
+}
+
+.menu__burger__head {
+    background-color: black;
+    max-height: 47px;
+}
+
+.menu__burger_title {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+
+button,
+input {
+    border: none;
+    outline: none;
+}
+
+form {
+    display: flex;
+}
+
+.menu__burger__search {
+    background-color: rgb(177, 177, 177);
+    min-height: 62px;
+    display: flex;
+    align-items: center;
+}
+
+.search__input {
+    min-width: 357px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    min-height: 42px;
+}
+
+.search__input__img {}
