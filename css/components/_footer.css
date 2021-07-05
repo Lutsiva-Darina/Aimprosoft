@@ -1,5 +1,7 @@
 .footer {
     background-color: black;
+    min-height: 34px;
+    padding-top: 5px;
 }
 
 .footer__container {

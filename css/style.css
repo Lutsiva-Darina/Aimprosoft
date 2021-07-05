@@ -15,5 +15,7 @@
   @import "/css/components/_menu.css";
   @import "/css/components/_menu-burger.css";
   @import "/css/components/_slider-clothes.css";
-  @import url("/css/slick-theme.css");
-  @import url("/css/components/slider.css");
+  @import "/libs/slick/slick-theme.css";
+  @import "/libs/slick/slick.css";
+  @import "/css/components/shopcard.css";
+ 

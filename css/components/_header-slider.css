@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* 
 .slider {
     width: 100%;
     overflow: hidden;
     position: relative;
-}
+} */
 
-.slider__line {
+/* .slider__line {
     display: flex;
     position: relative;
     transition: all ease 1s;
@@ -19,7 +19,7 @@
 
 .offer__slider-wrapper {
     width: 100%;
-}
+} */
 
 .offer__slider-prev {
     margin-right: 10px;
@@ -53,7 +53,7 @@
     text-transform: uppercase;
     text-align: center;
     top: 40%;
-    margin-left: 2.5%;
+    left: 10.5%;
 }
 
 .slider__text__header {
@@ -79,14 +79,35 @@
     font-size: 24px;
     padding-top: 12px;
     margin-bottom: 45px;
+    
 }
 
 .slider__button {
-    border: 2px solid #b1b1b1;
+    border: 2px solid #393939;
     background-color: transparent;
     padding: 5px 14px;
     font-size: 24px;
     font-family: Rajdhani;
     font-weight: 500;
     text-transform: uppercase;
+}
+.slick-dots{
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    left:45%;
+}
+.slick-dots li button{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.slick-dots .slick-active button{
+    background-color: rgb(34, 31, 31);
+    color: black;
+}
+.slick-dots button{
+    background-color: white;
+    color: white;
 }
