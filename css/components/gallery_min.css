@@ -1,0 +1,57 @@
+
+  /*****************************************
+  *  --------------------------------------*
+  *  Slick                                 *
+  *  --------------------------------------*
+  *****************************************/
+  
+  /* .cl {
+    height:200px;
+    padding:10px;
+  } */
+  /* .gallery__container__min{
+        padding: 10px; 
+  } */
+  /* cl{
+      width: 135px;
+  } */
+  /* .slide .slick-slide{
+      width: 30px;
+  }
+   */
+  .slick-active { 
+    opacity: 1;
+  }
+  
+  .slick-center { 
+      opacity: 1; 
+  }
+  
+  .slick-slide:not(.slick-active) {  
+    opacity: 0.5;
+  }
+/*   
+  .child { 
+    width:100%; 
+  }
+   */
+  .slide:not(.slick-active) { 
+    cursor: pointer; 
+  }
+  .cl img{
+      margin: 0 auto;
+      padding: 0px 10px;
+  } 
+  /* .slick-slide{
+      width: 135px !important;
+  } */
+
+  .gallery__container__min{
+      margin: 0 auto;
+  }
+  div .cl{
+      width: 120px;
+  }
+  .gallery__container__min{
+      margin-bottom: 32px;
+  }

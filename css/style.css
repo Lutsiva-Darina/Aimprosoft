@@ -18,4 +18,6 @@
   @import "/libs/slick/slick-theme.css";
   @import "/libs/slick/slick.css";
   @import "/css/components/shopcard.css";
+
+  @import url("/css/components/gallery_min.css");
  
