@@ -38,3 +38,31 @@
 .item-big {
     width: 75%;
 }
+/* @media screen and (max-device-width: 1260px){
+    .categories__item{
+        margin: 10px 0px;
+    }
+} */
+@media screen and (max-device-width: 768px){
+    .categories__icon{
+        margin-top: 20px;
+        margin-bottom: 28px;
+    }
+}
+@media screen and (max-device-width: 320px){
+   .categories__row{
+        flex-direction: column;
+    } 
+    .item__corta{
+        min-height: 167px;
+    }
+   .categories__item{
+        width: 100%;
+        margin: 10px 0px;
+        min-height: 216px;
+    } 
+     
+}
+    /* .categories__row{
+        padding: 0px 16px;
+    } */

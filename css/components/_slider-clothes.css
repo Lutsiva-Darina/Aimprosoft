@@ -35,4 +35,27 @@
 .slide__block__price{
     margin-top: 9px;
 }
-  
+@media screen and (max-device-width: 768px){
+    .section__header{
+        margin-bottom: 25px;
+    }
+    .container__slider{
+        max-width: 657px;
+    }
+    .container__slider img {
+        margin-right: 10px;
+    }
+    .container__slider img{
+        max-width: 152px;
+        width: 100%;
+    }
+    .slick-track{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-device-width: 320px){
+    .block__active__p{
+        display: none;
+    }
+    
+}
