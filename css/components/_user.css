@@ -50,3 +50,8 @@
         margin-right: 0px;
     }
 }
+@media screen and (max-device-width: 350px){
+    .user__container{
+        display: none;
+    }
+}

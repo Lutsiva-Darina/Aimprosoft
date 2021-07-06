@@ -46,12 +46,17 @@
       width: 135px !important;
   } */
 
-  .gallery__container__min{
+  .container__min{
       margin: 0 auto;
-  }
-  div .cl{
-      width: 120px;
-  }
-  .gallery__container__min{
       margin-bottom: 32px;
   }
+  
+.user__min img{
+    width: 202px;
+}
+.clothes img{
+    height: 400px;
+}
+.clothes p{
+    text-align: center;
+}

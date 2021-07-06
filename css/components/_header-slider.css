@@ -144,3 +144,24 @@
         height: 14px;
     }
 }
+@media screen and (max-device-width: 350px){
+    .header__slider_big{
+        display: none;
+    }
+    .header__slider__small{
+        display: block;
+    }
+    .header__slider__small .offer__slide img{
+        height: 250px;
+    }
+    .slider__text__header {
+        font-size: 14px;
+    }
+    .slider__text__sports {
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+    .slider__text {
+        left: 9.5%;
+    }
+}

@@ -86,7 +86,7 @@
         max-width: 131px;
     }
 }
-@media screen and (max-device-width: 320px){
+@media screen and (max-device-width: 350px){
     .form__container{
         flex-direction: column;
     }
