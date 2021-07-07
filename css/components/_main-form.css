@@ -86,7 +86,7 @@
         max-width: 131px;
     }
 }
-@media screen and (max-device-width: 350px){
+@media screen and (max-device-width: 600px){
     .form__container{
         flex-direction: column;
     }
@@ -101,8 +101,8 @@
         top: 50%;
     }
     .form__input{
-        color:aqua;
         margin-bottom: 7px;
+        max-width: 100%;
     }
     .form__button{
         max-width: 100%;

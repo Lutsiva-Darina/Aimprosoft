@@ -8,10 +8,9 @@ $slickEl.slick({
   infinite: true,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 500,
       settings: {
         arrows: false,
-        centerMode: true,
         centerPadding: '40px',
         slidesToShow: 1
       }

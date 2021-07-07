@@ -43,7 +43,8 @@
     background-image: url(/img/icons/basket_number88.png); 
     background-repeat: no-repeat;
     background-size: contain;
-    width: 46px; 
+    width: 46px;
+    margin-right: 20px; 
     
 }
 .menu__burger span {
@@ -72,6 +73,14 @@
     .header__menu{
         margin-bottom: 28px;
     } 
+}
+@media screen and (max-device-width: 600px){
+    .container__slider img {
+        padding: 0px 16px;
+    }
+    .slide__block__active p{
+       display: none;
+    }
 }
 @media screen and (max-device-width: 350px){
     .header__menu__container{

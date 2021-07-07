@@ -86,7 +86,7 @@ li {
         height: 8px;
     }
 }
-@media screen and (max-device-width: 350px){
+@media screen and (max-device-width: 300px){
     .container__min{
         display: block;
     }
