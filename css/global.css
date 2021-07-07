@@ -86,11 +86,14 @@ li {
         height: 8px;
     }
 }
-@media screen and (max-device-width: 300px){
+@media screen and (max-device-width: 320px){
     .container__min{
         display: block;
     }
     .slider-clothees .container__slider{
+        display: none;
+    }
+    container__slider__user{
         display: none;
     }
 }

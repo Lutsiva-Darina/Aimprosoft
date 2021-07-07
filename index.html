@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html lang="en">
 
@@ -341,39 +342,28 @@
             <div class="flex__block user__block" style="background-image: url(img/user/use3.png);"></div>
             <div class="flex__block user__block" style="background-image: url(img/user/use4.png);"></div>
         </div> -->
-        <!-- <div class="container__slider">
+        <div class="container__slider__user">
             <div class="slide__block">
-                <img src="../img/cloth_carusel/cloth1.png">
-                <p class="slide__block__price">R$88,88</p>
-            </div>
-            <div class="slide__block">
-                <img src="../img/cloth_carusel/cloth2.png">
-                <p class="slide__block__price">R$88,88</p>
-            </div>
-            <div class="slide__block">
-                <img src="../img/cloth_carusel/cloth3.png">
-                <div class="slide__block__active">
-                    <p class="block__active__p">comprar</p>
+                <div class="flex__block user__block" style="background-image: url(img/user/use1.png);">
                 </div>
-                <p class="slide__block__price">R$88,88</p>
             </div>
             <div class="slide__block">
-                <img src="../img/cloth_carusel/cloth4.png">
-                <p class="slide__block__price">R$88,88</p>
+                <div class="flex__block user__block" style="background-image: url(img/user/use2.png);">
+                    <div class="user__black__container">
+                        <p class="user__black__title">David Guetta</p>
+                    </div>
+                </div>
             </div>
             <div class="slide__block">
-                <img src="../img/cloth_carusel/cloth5.png">
-                <p class="slide__block__price">R$88,88</p>
+                <div class="flex__block user__block" style="background-image: url(img/user/use3.png);"></div>
             </div>
             <div class="slide__block">
-                <img src="../img/cloth_carusel/cloth6.png">
-                <p class="slide__block__price">R$88,88</p>
+                <div class="flex__block user__block" style="background-image: url(img/user/use4.png);"></div>
             </div>
-            <div class="slide__block">
-                <img src="../img/cloth_carusel/cloth3.png">
-                <p class="slide__block__price">R$88,88</p>
-            </div>
-        </div> -->
+            <!-- <div class="slide__block">
+                <div class="flex__block user__block" style="background-image: url(img/user/use4.png);"></div>
+            </div> -->
+        </div>
         <div class="container__min">
             <div class="slider center">       
                 <div class="slide">
@@ -493,12 +483,33 @@ $('.slider__line').slick({
 });
 
 
-$('.slide__user').slick({
-    infinite: true,
+$('.container__slider__user').slick({
+  infinite: true,
   slidesToShow: 4,
   slidesToScroll: 1,
   autoplay: true,
+  arrows:false,
   autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 750,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 });
    </script>
 

@@ -35,6 +35,12 @@
     font-weight: 600;
     font-size: 24px;
 }
+.container__slider__user{
+    margin-bottom: 78px;
+}
+.container__slider__user .slide__block{
+    padding: 0px 10px;
+}
 @media screen and (max-device-width: 768px){
     .user__container{
         display: flex;
@@ -49,12 +55,15 @@
     .user__block:last-child{
         margin-right: 0px;
     }
+    .container__slider__user{
+        margin-bottom: 37px;
+        }
 }
 @media screen and (max-device-width: 320px){
-    .user__container{
-        display: none;
-    }
     .container__min{
         display: block;
+    }
+    .user .container__slider__user{
+        display: none;
     }
 }

@@ -25,6 +25,7 @@
     margin: 6px 0px;
     text-transform: uppercase;
     margin-left: 100px;
+    white-space: nowrap;
 }
 
 .menu__login {
@@ -80,6 +81,9 @@
     }
     .slide__block__active p{
        display: none;
+    }
+    .menu__login{
+        margin-left: 28px;
     }
 }
 @media screen and (max-device-width: 350px){
