@@ -41,6 +41,7 @@
 .container__slider__user .slide__block{
     padding: 0px 10px;
 }
+
 @media screen and (max-device-width: 768px){
     .user__container{
         display: flex;
