@@ -6,7 +6,7 @@
 
 .main__form__block {
     position: relative;
-    background-image: url(/img/block-form.png);
+    background-image: url(img/block-form.png);
     width: 100%;
     max-width: 225px;
     margin-right: 10px;
