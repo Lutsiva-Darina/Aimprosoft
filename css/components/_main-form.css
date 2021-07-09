@@ -6,10 +6,11 @@
 
 .main__form__block {
     position: relative;
-    background-image: url(img/block-form.png);
+    background-image: url("../../img/block-form.png");
     width: 100%;
     max-width: 225px;
     margin-right: 10px;
+    
     min-height: 54px;
     background-repeat: no-repeat;
 }
@@ -86,7 +87,7 @@
         max-width: 131px;
     }
 }
-@media screen and (max-device-width: 600px){
+@media screen and (max-device-width: 650px){
     .form__container{
         flex-direction: column;
     }

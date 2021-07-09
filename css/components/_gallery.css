@@ -34,7 +34,7 @@
     }
 }
 @media screen and (max-device-width: 350px){
-    .gallery__container{
+    .gallery .container__slider__user{
         display: none;
     }
     section.gallery.container{

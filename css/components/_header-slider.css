@@ -111,6 +111,20 @@
     background-color: white;
     color: white;
 }
+@media screen and (min-device-width: 1000px){
+    .slider__text{
+        left:9.9%
+    }
+}
+@media screen and (min-device-width: 800px) and (max-device-width: 900px){
+.slider__text{
+    left:9.5%
+}
+.slider__text__hr{
+    max-width: 275px;
+    width: 100%;      
+}
+}
 @media screen and (max-device-width: 768px){
     .slider__text{
         left: 10%;
@@ -144,7 +158,7 @@
         height: 14px;
     }
 }
-@media screen and (max-device-width: 350px){
+@media screen and (max-device-width: 450px){
     .header__slider_big{
         display: none;
     }

@@ -60,3 +60,11 @@
 .clothes p{
     text-align: center;
 }
+.user__min_gallery img{
+  padding: 0px 0px; 
+}
+@media screen and (max-device-width: 300px){
+  .user__min img{
+    width: 160px;
+}
+}

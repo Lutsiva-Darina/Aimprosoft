@@ -41,7 +41,7 @@
     height: 24px;
 }
 .menu__basket{
-    background-image: url(img/icons/basket_number88.png); 
+    background-image: url("../../img/icons/basket_number88.png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 46px;
@@ -86,7 +86,7 @@
         margin-left: 28px;
     }
 }
-@media screen and (max-device-width: 350px){
+@media screen and (max-device-width: 450px){
     .header__menu__container{
         top: 0;
         position: fixed;
@@ -116,5 +116,10 @@
     }
     .menu__header {
         margin:7px 5px 7px 45px;
+    }
+}
+@media screen and (max-device-width: 280px){
+    .menu__header{
+        font-size: 25px;
     }
 }

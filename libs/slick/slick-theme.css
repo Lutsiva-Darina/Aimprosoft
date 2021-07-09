@@ -71,11 +71,11 @@
 }
 
 .slick-prev:before {
-    background-image: url("/img/icons/arrow.png");
+    background-image: url("../../img/icons/arrow.png");
 }
 
 .slick-next:before {
-    background-image: url("/img/icons/arrows-right.png");
+    background-image: url("../../img/icons/arrows-right.png");
     position: absolute;
     right: 0;
 }
@@ -127,4 +127,9 @@
 
 [dir='rtl'] .slick-next:before {
     content: '←';
+}
+@media screen and (max-device-width: 350px){
+    .slick-slider{
+        display: none;
+    }
 }

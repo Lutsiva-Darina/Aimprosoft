@@ -39,7 +39,8 @@ li {
 
 .flex__block {
     margin-right: 25px;
-    width: 100%;
+    /* width: 100%; */
+    /* padding: 0px 10px; */
     max-width: 227px;
     height: 227px;
     background-size: cover;
