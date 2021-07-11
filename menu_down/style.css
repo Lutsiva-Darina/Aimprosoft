@@ -24,13 +24,19 @@ button {
     background-color: white;
     border: 1px solid gray;
     background-color: #b1b1b1;
+    overflow: auto;
 }
 
 .menu__burger__head {
     background-color: black;
     padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
+.menu__down__close{
+    margin-right: 21px;
+}
 .menu__burger_title {
     font-size: 16px;
     text-transform: uppercase;
@@ -87,7 +93,7 @@ form {
     color: rgb(41, 41, 41);
 }
 
-.plus {
+.plus, .submenu__arow {
     margin-right: 28px;
 }
 
@@ -272,6 +278,11 @@ nav a {
     width: 100%;
 }
 .sub__wrapper{
-    background-color: aqua;
+    min-height: 50px;
+    background-color: #000000;
+}
+.sub__wrapper .topmenu_block a{
+    color: white;
+    font-weight: 500;
 }
 /*  */

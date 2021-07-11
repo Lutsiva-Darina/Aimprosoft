@@ -19,6 +19,7 @@ plus.forEach(plus_el => {
                 if(count %2==0){
                     submenu.style.display = "none";
                     stick_el.style.display="block";
+                    
                 }
                 else{
                     stick_el.style.display="none";

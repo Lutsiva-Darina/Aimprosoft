@@ -32,6 +32,7 @@ form {
     min-height: 62px;
     display: flex;
     align-items: center;
+    margin-left: 4%;
 }
 
 .search__input {

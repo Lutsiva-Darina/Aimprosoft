@@ -39,6 +39,7 @@
 .menu__burger {
     position: relative;
     height: 24px;
+    cursor: pointer;
 }
 .menu__basket{
     background-image: url("../../img/icons/basket_number88.png");
