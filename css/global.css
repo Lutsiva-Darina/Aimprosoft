@@ -49,6 +49,15 @@ li {
     cursor: pointer;
 }
 
+.flex__block__black{
+    display:block;
+    color:white;
+    background-color:rgba(0,0,0,0.7);
+    width: 100%;
+    max-width: 287px;
+    height: 100%;
+    margin-right: 32px;
+}
 .flex__block:last-child {
     margin-right: 0;
 }

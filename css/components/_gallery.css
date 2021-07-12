@@ -7,13 +7,19 @@
     background: rgba(0, 0, 0, 0.7);
     display: none;
 }
-.like__container {
+.like__container, .like__container2{
     display: none;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
     text-align: center;
+}
+
+.slide__block p{
+        font-size: 24px;
+        text-align: center;
+        white-space: nowrap;
 }
 
 .like__title {
@@ -23,7 +29,9 @@
     font-size: 36px;
     text-align: center;
 }
-
+.gallery__container:hover{
+    width: 500px;
+}
 @media screen and (max-device-width: 768px){
     .categories{
         margin-bottom: 35px;
